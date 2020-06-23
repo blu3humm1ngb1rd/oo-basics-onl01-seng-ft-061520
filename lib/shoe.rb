@@ -6,9 +6,9 @@ class Shoe
     @brand = brand
   end
   
-  def shoe_condition=(shoe_condition)
-    @shoe_condition = shoe_condition
-  end 
+  # def shoe_condition=(shoe_condition)
+  #   @shoe_condition = shoe_condition
+  # end 
   
   def cobble
     shoe_condition = "new"
