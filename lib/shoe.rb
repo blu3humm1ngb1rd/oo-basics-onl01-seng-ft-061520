@@ -7,7 +7,7 @@ class Shoe
   end
   
   def cobble
-    self.shoe_condition(:@shoe_condition, "new")
+    
     puts "Your shoe is as good as new!"
   end 
   
