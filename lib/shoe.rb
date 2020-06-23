@@ -1,12 +1,14 @@
 require "pry"
 class Shoe 
-  attr_accessor :brand, :size, :material, :condition, :color, :shoe_condition
+  attr_accessor :brand, :size, :material, :condition, :color
   
   def initialize(brand)
     @brand = brand
   end
   
-
+  def shoe_condition=(shoe_condition)
+    @shoe_condition = shoe_condition
+  end 
   
   def cobble
     
