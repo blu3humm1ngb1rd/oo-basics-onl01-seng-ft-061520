@@ -6,6 +6,10 @@ class Shoe
     @brand = brand
   end
   
+  def initialize(shoe_condition)
+    @shoe_condition
+  end 
+  
   def cobble
     binding.pry
     puts "Your shoe is as good as new!"
